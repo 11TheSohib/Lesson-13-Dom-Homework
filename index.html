@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form id="formAutoridaion">
+      <div id="email">
+        <label for="user-email">Email</label>
+        <input
+          type="email"
+          id="user-email"
+          placeholder="Emailingizni kiriting"
+          required
+        />
+      </div>
+
+      <div id="password">
+        <label for="user-password">Parol</label>
+        <input
+          type="password"
+          id="user-password"
+          placeholder="Parolingizni kiriting"
+          required
+        />
+      </div>
+
+      <button type="submit" id="btn">Submit</button>
+    </form>
+    <h2 id="hasEmail">Email already has</h2>
+    <div class="datas">
+      <table border="">
+        <tr>
+          <th>Email</th>
+          <th>Password</th>
+        </tr>
+      </table>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
